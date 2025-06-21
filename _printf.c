@@ -5,7 +5,6 @@
 /**
  * print_char - Imprime un carácter
  * @c: Carácter a imprimir
- *
  * Return: Número de caracteres impresos
  */
 int print_char(char c)
@@ -16,7 +15,6 @@ int print_char(char c)
 /**
  * print_str - Imprime una cadena
  * @s: Cadena a imprimir
- *
  * Return: Número de caracteres impresos
  */
 int print_str(char *s)
@@ -31,10 +29,9 @@ int print_str(char *s)
 }
 
 /**
- * _printf - Imprime una cadena formateada (soporta %c, %s, %%)
+ * _printf - Función tipo printf con %c, %s y %%
  * @format: Cadena de formato
- *
- * Return: Número de caracteres impresos, o -1 si error
+ * Return: Número de caracteres impresos o -1 si error
  */
 int _printf(const char *format, ...)
 {
@@ -44,12 +41,11 @@ int _printf(const char *format, ...)
 	if (!format)
 		return (-1);
 	va_start(args, format);
+
 	while (format[i])
 	{
-		if (format[i] == '%')
+		if (format[i] == '%' && format[i + 1])
 		{
-			if (!format[i + 1])
-				return (-1);
 			i++;
 			if (format[i] == 'c')
 				count += print_char(va_arg(args, int));
@@ -58,7 +54,15 @@ int _printf(const char *format, ...)
 			else if (format[i] == '%')
 				count += print_char('%');
 			else
+			{
+				count += write(1, "%", 1);
 				count += write(1, &format[i], 1);
+			}
+		}
+		else if (format[i] == '%' && !format[i + 1])
+		{
+			va_end(args);
+			return (-1);
 		}
 		else
 			count += write(1, &format[i], 1);
