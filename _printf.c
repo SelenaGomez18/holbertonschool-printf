@@ -51,6 +51,8 @@ int _printf(const char *format, ...)
 				count += print_char(va_arg(args, int));
 			else if (format[i] == 's')
 				count += print_str(va_arg(args, char *));
+			else if (format[i] == 'd' || format[i] == 'i')
+				count += print_int(va_arg(args, int));
 			else if (format[i] == '%')
 				count += print_char('%');
 			else
