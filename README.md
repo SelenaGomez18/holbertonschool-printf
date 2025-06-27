@@ -1,5 +1,9 @@
 # HOLBERTON SCHOOL - _PRINTF
-First group project
+
+First group project.
+
+---
+
 ![portada](https://github.com/user-attachments/assets/ce0e3689-88df-4eae-a59b-8636195a6bc2)
 
 
