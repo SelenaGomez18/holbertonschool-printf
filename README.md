@@ -92,7 +92,7 @@ int main(void)
 
 ## 🗺️ `_printf` Flow Diagram
 
-![Flow of _printf](images/flow_printf.png.png)
+![Flow of _printf](images/flow_printf.png)
 
 ---
 
