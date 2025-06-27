@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * print_char - Imprime un carácter
- * @c: Carácter a imprimir
- * Return: Número de caracteres impresos
+ * print_char - Print a character
+ * @C: Character to print
+ * Return: number of printed characters
  */
 int print_char(char c)
 {
@@ -13,9 +13,9 @@ int print_char(char c)
 }
 
 /**
- * print_str - Imprime una cadena
- * @s: Cadena a imprimir
- * Return: Número de caracteres impresos
+ * print_str - print a string
+ * @s: String to print
+ * Return: number of printed characters
  */
 int print_str(char *s)
 {
@@ -29,9 +29,9 @@ int print_str(char *s)
 }
 
 /**
- * _printf - Función tipo printf con %c, %s y %%
- * @format: Cadena de formato
- * Return: Número de caracteres impresos o -1 si error
+ * _printf - Printf type function with %C, %s and %%
+ * @format: format string
+ * Return: number of printed characters or -1 if error
  */
 int _printf(const char *format, ...)
 {
