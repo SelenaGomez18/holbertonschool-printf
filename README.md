@@ -1,5 +1,8 @@
 # HOLBERTON SCHOOL - _PRINTF
 First group project
+![portada](https://github.com/user-attachments/assets/ce0e3689-88df-4eae-a59b-8636195a6bc2)
+
+
 
 # 🖨️ `_printf` Project in C
 
@@ -92,8 +95,7 @@ int main(void)
 
 ## 🗺️ `_printf` Flow Diagram
 
-![flow_printf](https://github.com/user-attachments/assets/88ffe566-6d05-473f-8765-eed1aeb84fc1)
-
+![flow_printff](https://github.com/user-attachments/assets/165d6649-9914-4d57-8db5-8e7d1ace622a)
 
 ---
 
@@ -123,6 +125,8 @@ _printf/
 
 **Selena Gomez Rueda**  **& Miguel Palencia**  
 Developed as an academic project for **Holberton School / ALX Software Engineering**.
+
+![banner png](https://github.com/user-attachments/assets/8c8328c1-682c-4cdb-99cb-b4e8a018a3a7)
 
 ---
 
