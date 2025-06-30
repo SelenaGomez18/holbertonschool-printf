@@ -128,10 +128,8 @@ _printf/
 
 ## 👩‍💻 Authors
 
-**Selena Gomez Rueda**  **& Miguel Palencia**  
+**Selena Gomez Rueda** 
 Developed as an academic project for **Holberton School**.
-
-![banner png](https://github.com/user-attachments/assets/8c8328c1-682c-4cdb-99cb-b4e8a018a3a7)
 
 ---
 
