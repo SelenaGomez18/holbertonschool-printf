@@ -83,7 +83,7 @@ int main(void)
 .fi
 
 .SH AUTHORS
-Written by Selena Gómez & Miguel Palencia.
+Written by Selena Gómez.
 
 .SH SEE ALSO
 .BR printf (3),
